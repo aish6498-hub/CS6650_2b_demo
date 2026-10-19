@@ -2,3 +2,6 @@
 **.tfstate
 **.tfstate.*
 **/.terraform/
+
+# Editor/IDE
+.idea/
