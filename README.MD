@@ -99,7 +99,7 @@ Expected output (id 5 was never seeded):
 HTTP 404
 ```
 
-For every other response code (400, 500, and the full POST flow), see [HW5 Part II's README](https://github.com/aish6498-hub/CS6650-assignments/tree/main/hw05/part2) or import [`postman_collection.json`](https://github.com/aish6498-hub/CS6650-assignments/tree/main/hw05/part2/postman_collection.json) from that same folder and point its `base_url` variable at `http://<PUBLIC-IP-ADDRESS>:8080`.
+For every other response code (400, 500, and the full POST flow), see [HW5 Part II's README](https://github.com/aish6498-hub/CS6650-assignments/tree/main/hw05/part2) or import the collection and environments from [`hw05/postman/`](https://github.com/aish6498-hub/CS6650-assignments/tree/main/hw05/postman) (`postman_collection.json` plus the Local/Deployed environment files) and select the "Deployed (AWS)" environment, updating its `base_url` to match the current public IP.
 
 ## Clean Up
 ```bash
